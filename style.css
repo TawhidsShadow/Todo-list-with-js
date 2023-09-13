@@ -1,0 +1,142 @@
+:root {
+   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 62.5%;
+   font-family: 'cartograph cf';
+   text-decoration: none;
+   list-style: none;
+}
+
+.wrap {
+   background-color: dodgerblue;
+   min-height: 100vh;
+   padding: 20px;
+}
+
+.heading {
+   margin: 10px auto 40px auto;
+}
+
+.heading .title,
+.heading .subtitle {
+   font-size: 3rem;
+   color: white;
+   font-weight: 500;
+   text-align: center;
+}
+
+.heading .subtitle {
+   font-size: 2rem;
+   font-weight: 300;
+}
+
+.task-manager {
+   min-width: 350px;
+   max-width: 450px;
+   margin: auto;
+}
+
+.search-box,
+.task-box,
+.message {
+   background-color: white;
+   padding: 2rem 2.5rem;
+   border-radius: 0.3rem;
+   margin: 2rem 0;
+}
+
+.search-box .search {
+   display: flex;
+   margin: 1rem 0;
+}
+
+.search-box input {
+   border-radius: 0.3rem;
+   width: 100%;
+   margin-right: 1rem;
+   padding: 1rem;
+   font-size: 1.6rem;
+   outline: none;
+   border: solid 1px #999;
+}
+
+.search-box .reset {
+   font-size: 2rem;
+   height: 100%;
+   padding: 1rem 0;
+   cursor: pointer;
+}
+
+.task-box .tasks {
+   margin: 1rem 0;
+}
+
+.task-box li {
+   background-color: #f2f2f2;
+   display: flex;
+   margin: 1rem 0;
+   font-size: 2rem;
+   justify-content: space-between;
+}
+
+.task-box span {
+   padding: 1rem;
+}
+
+.task-box .delete {
+   background-color: rgb(255, 50, 50);
+   color: white;
+   cursor: pointer;
+   border-radius: 0 2px 2px 0;
+   height: 100%;
+   padding: 1rem;
+}
+
+.task-box .add {
+   display: flex;
+   margin: 3rem 0 1rem 0;
+}
+
+.task-box input {
+   flex: 2;
+   border-radius: 0.3rem;
+   width: 100%;
+   margin-right: 1rem;
+   padding: 1rem;
+   font-size: 1.6rem;
+   outline: none;
+   border: solid 1px #999;
+}
+
+.task-box input[type='submit'] {
+   flex: 1;
+   padding: 1rem;
+   font-size: 1.6rem;
+   background: #65c18c;
+   border: none;
+   cursor: pointer;
+}
+
+.message {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 2rem;
+}
+
+
+
+.message .clear {
+   border: none;
+   background: dodgerblue;
+   color: white;
+   cursor: pointer;
+   padding: 1rem;
+   font-size: 1.6rem;
+   border-radius: .3rem;
+}
